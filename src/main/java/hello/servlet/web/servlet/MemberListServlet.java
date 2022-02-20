@@ -59,3 +59,5 @@ public class MemberListServlet extends HttpServlet {
         w.write("</html>");
     }
 }
+//서블릿과 자바코드로만 만든 HTML은 매우 귀찮다
+//다음에는 JSP와 Thymeleaf를 사용한다
