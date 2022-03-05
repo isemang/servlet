@@ -14,6 +14,8 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+//기존 구조에서 모델을 파라미터로 넘기고, 뷰의 논리 이름을 반환하는 아이디어 적용
+//컨트롤러를 실질 구현(MemberFormController 등..)할 때 군더더기 없는 코드 작성 가능
 @WebServlet(name = "frontControllerServletV4", urlPatterns = "/frontcontroller/v4/*")
 public class FrontControllerServletV4 extends HttpServlet {
     private Map<String, ControllerV4> controllerMap = new HashMap<>();
